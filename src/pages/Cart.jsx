@@ -37,12 +37,12 @@ const Cart = ({ location, getLocation }) => {
                         <h1 className="md:w-[300px] line-clamp-2 ">
                           {item.title}
                         </h1>
-                        <p className="text-red-500 font-semibold text-lg">
+                        <p className="text-[#cc0c39] font-semibold text-lg">
                           ${item.price}
                         </p>
                       </div>
                     </div>
-                    <div className="bg-red-500 text-white flex gap-4 p-2 rounded-md font-bold text-xl">
+                    <div className="bg-[#cc0c39] text-white flex gap-4 p-2 rounded-md font-bold text-xl">
                       <button
                         onClick={() =>
                           updateQuantity(cartItem, item.id, "decrease")
@@ -133,7 +133,7 @@ const Cart = ({ location, getLocation }) => {
                     />
                   </div>
                 </div>
-                <button className="bg-red-500 text-white px-3 py-1 rounded-md mt-3 cursor-pointer">
+                <button className="bg-mediumB text-white px-3 py-1 rounded-md mt-3 cursor-pointer">
                   Submit
                 </button>
            
@@ -159,7 +159,7 @@ const Cart = ({ location, getLocation }) => {
                     </span>
                     Delivery Charge
                   </h1>
-                  <p className="text-red-500 font-semibold">
+                  <p className="text-[#cc0c39] font-semibold">
                     <span className="text-gray-600 line-through">$25</span> FREE
                   </p>
                 </div>
@@ -170,7 +170,7 @@ const Cart = ({ location, getLocation }) => {
                     </span>
                     Handling Charge
                   </h1>
-                  <p className="text-red-500 font-semibold">$5</p>
+                  <p className="text-[#cc0c39] font-semibold">$5</p>
                 </div>
                 <hr className="text-gray-200 mt-2" />
                 <div className="flex justify-between items-center">
@@ -178,7 +178,7 @@ const Cart = ({ location, getLocation }) => {
                   <p className="font-semibold text-lg">${totalPrice + 5}</p>
                 </div>
                
-                <button className="bg-red-500 text-white px-3 py-2 rounded-md w-full cursor-pointer mt-3">
+                <button className="bg-mediumB text-white px-3 py-2 rounded-md w-full cursor-pointer mt-3">
                   Proceed to Checkout
                 </button>
               </div>

@@ -2,6 +2,14 @@
 
 /* clerk user button adjust */
 
+@theme {
+   --color-deepestB: rgb(13,71,161);
+   --color-slightLB: rgb(25,118,210);
+   --color-mediumB: rgb(66,165,245);
+   --color-lightB: rgb(144,202,249);
+   --color-veryLB: rgb(225,245,254);
+   --color-hero-gradient: 'linear-gradient(to bottom, var(--color-slightLB), rgba(13, 71, 161, 0.85))';
+}
 .cl-avatarBox {
     width: 3rem;
     height: 3rem;

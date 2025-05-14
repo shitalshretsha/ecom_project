@@ -79,7 +79,7 @@ const FilterSection = ({
         />
       </div>
       <button
-        className="bg-red-500 text-white rounded-md px-3 py-1 mt-5 cursor-pointer"
+        className="bg-mediumB text-white rounded-md px-3 py-1 mt-5 cursor-pointer"
         onClick={() => {
           setSearch("");
           setCategory("All");

@@ -5,18 +5,18 @@ import { FaFacebook, FaInstagram, FaPinterest, FaTwitterSquare } from 'react-ico
 
 const Footer = () => {
   return (
-    <footer className='bg-gray-900 text-gray-200 py-10'>
+    <footer className='bg-[#051f47] text-gray-200 py-10'>
       <div className='max-w-7xl mx-auto px-4 md:flex md:justify-between'>
         {/*  info */}
         <div className='mb-6 md:mb-0'>
             <Link to='/'>
               {/* <img src={Logo} alt="" className='w-32'/> */}
-              <h1 className='text-red-500 text-2xl font-bold'>Shital</h1>
+              <h1 className='text-veryLB text-2xl font-bold'>MarketPlace</h1>
             </Link>
             <p className='mt-2 text-sm'>Powering Your World with the Best in Electronics.</p>
             <p className='mt-2 text-sm'>123 Electronics St, Style City, NY 10001</p>
             <p className='text-sm'>Email: shital</p>
-            <p className='text-sm'>Phone: (123) 456-7890</p>
+            <p className='text-sm'>Phone: (123) 000-0000</p>
         </div>
         {/* customer service link */}
         <div className='mb-6 md:mb-0'>
@@ -55,7 +55,7 @@ const Footer = () => {
       </div>
       {/* bottom section */}
       <div className='mt-8 border-t border-gray-700 pt-6 text-center text-sm'>
-        <p>&copy; {new Date().getFullYear()} <span className='text-red-500'>Shital</span>. All rights reserved</p>
+        <p>&copy; {new Date().getFullYear()} <span className='text-red-500'>MarketPlace</span>. All rights reserved</p>
       </div>
     </footer>
   )
