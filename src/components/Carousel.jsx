@@ -33,7 +33,7 @@ const Carousel = () => {
     var settings = {
         dots: false,
         autoplay: true,
-        autoplaySpeed:200000,
+        autoplaySpeed:5000,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
